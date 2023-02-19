@@ -37,9 +37,10 @@ h6 {
 }
 
 #right {
-  flex: 1
+  flex: 1;
 }
 
+/* Sign In */
 #signin {
   display: flex;
   flex-direction: column;
@@ -59,7 +60,7 @@ h6 {
 
 #signin form {
   width: 80%;
-  padding: 3rem;
+  padding-bottom: 2rem;
 }
 
 #signin label {
@@ -83,9 +84,10 @@ h6 {
   width: 100%;
 }
 
-#signin .secondary-btn,
+#signin
 .links,
-.or {
+.or,
+.secondary-btn {
   width: 60%;
 }
 
@@ -140,6 +142,7 @@ h6 {
   margin: auto;
 }
 
+/* Footer */
 #main-footer {
   color: #ccc;
   text-align: center;
@@ -166,7 +169,7 @@ h6 {
   text-decoration: none;
   cursor: pointer;
   text-align: center;
-  transition: background-color 0.5s;
+  transition: all 0.5s;
 }
 
 .primary-btn:hover {
@@ -190,7 +193,7 @@ h6 {
 
 .secondary-btn:hover {
   border-color: #ff7b39;
-  color: #ff7b39
+  color: #ff7b39;
 }
 
 /* Media Queries */
